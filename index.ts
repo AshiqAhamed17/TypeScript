@@ -12,8 +12,4 @@ type User = {
     score: number
 }
 
-greet({
-    name: "Ashiq",
-    score: 97
-})
 
