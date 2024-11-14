@@ -1,15 +1,14 @@
-function greet (user: UserType) {
-    console.log(`Name : ${user.name}, Score : ${user.score}`);
-}
-
-interface UserType {
-    name: string, 
-    score: number
-}
-
-type User = {
+interface People {
     name: string,
-    score: number
+    age: number,
+    greet: () => string
 }
 
+let p : People = {
+    name: "Ashiq",
+    age: 23,
+    greet: () => "Hello"
+}
 
+console.log(p.greet());
+console.log(p.name);

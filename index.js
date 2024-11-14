@@ -1,8 +1,8 @@
 "use strict";
-function greet(user) {
-    console.log(`Name : ${user.name}, Score : ${user.score}`);
-}
-greet({
+let p = {
     name: "Ashiq",
-    score: 97
-});
+    age: 23,
+    greet: () => "Hello"
+};
+console.log(p.greet());
+console.log(p.name);
