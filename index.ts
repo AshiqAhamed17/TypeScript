@@ -1,14 +1,14 @@
-interface People {
-    name: string,
-    age: number,
-    greet: () => string
+
+interface User {
+    firstName: string,
+    lastName: string,
+    age: number
 }
 
-let p : People = {
-    name: "Ashiq",
-    age: 23,
-    greet: () => "Hello"
+const isLegal = (arr: number[]) => {
+    return arr.every(age => age >= 18);
 }
 
-console.log(p.greet());
-console.log(p.name);
+let users: User {
+    
+}

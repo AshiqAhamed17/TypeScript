@@ -1,8 +1,15 @@
 "use strict";
-let p = {
-    name: "Ashiq",
-    age: 23,
-    greet: () => "Hello"
+let a = {
+    name: "AQ",
+    sc: 9,
+    age: 20,
+    salary: 10000000,
+    bc: 2,
 };
-console.log(p.greet());
-console.log(p.name);
+let b = {
+    bc: 2,
+    sc: 9,
+    name: "AQ"
+};
+console.log(a);
+console.log(b);
