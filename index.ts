@@ -8,7 +8,3 @@ interface User {
 const isLegal = (arr: number[]) => {
     return arr.every(age => age >= 18);
 }
-
-let users: User {
-    
-}
