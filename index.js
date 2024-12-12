@@ -1,15 +1,11 @@
 "use strict";
-let a = {
-    name: "AQ",
-    sc: 9,
-    age: 20,
-    salary: 10000000,
-    bc: 2,
+const isLegal = (arr) => {
+    return arr.every(age => age >= 18);
 };
-let b = {
-    bc: 2,
-    sc: 9,
-    name: "AQ"
+const us = {
+    firstName: "AQ",
+    lastName: "QA",
+    age: 19,
+    Score: 100
 };
-console.log(a);
-console.log(b);
+console.log(us);
